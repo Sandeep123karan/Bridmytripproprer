@@ -1,7 +1,7 @@
 
 const express = require("express");
 const router = express.Router();
-const controller = require("../controllers/darshanBookingController");
+const controller = require("../controllers/DarshanBookingController");
 
 // CREATE booking
 router.post("/", controller.createDarshanBooking);
