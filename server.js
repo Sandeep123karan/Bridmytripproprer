@@ -372,7 +372,7 @@ const visaCountryRoutes = require("./routes/visaCountryRoutes");
 const documentRequirementRoutes = require("./routes/documentRequirementRoutes");
 const flightUploadTicketRoutes = require("./routes/flightUploadTicketRoutes");
 const paymentRoutes = require("./routes/paymentRoutes");
-const darshanBookingRoutes = require("./routes/darshanBookingRoutes");
+const darshanBookingRoutes = require("./routes/DarshanBookingRoutes");
 
 
 // ⭐ NEW: Cruise Routes
