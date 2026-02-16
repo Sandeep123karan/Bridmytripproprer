@@ -372,6 +372,7 @@ const visaCountryRoutes = require("./routes/visaCountryRoutes");
 const documentRequirementRoutes = require("./routes/documentRequirementRoutes");
 const flightUploadTicketRoutes = require("./routes/flightUploadTicketRoutes");
 const paymentRoutes = require("./routes/paymentRoutes");
+const darshanBookingRoutes = require("./routes/darshanBookingRoutes");
 
 
 // ⭐ NEW: Cruise Routes
@@ -473,6 +474,7 @@ app.use("/api/blogs", blogRoutes);
 app.use("/api/airports", airportRoutes);
 app.use("/api", trainAmendmentRoutes);
 app.use("/api", trainMarkupRoutes);
+app.use("/api/darshan-bookings", darshanBookingRoutes);
 // ⭐ Cruise Route
 app.use("/api/cruises", cruiseRoutes);
 app.use("/api/cruise-bookings", cruiseBookingRoutes);
