@@ -1,0 +1,40 @@
+const mongoose = require("mongoose");
+
+const companySettingSchema = new mongoose.Schema({
+  companyName: String,
+  companyGSTNo: String,
+  companyCINNo: String,
+  supportNo: String,
+  tollFreeNo: String,
+  whatsappNo: String,
+  supportEmail: String,
+  panNumber: String,
+  panName: String,
+  country: String,
+  state: String,
+  city: String,
+  zipCode: String,
+  street: String,
+  copyright: String,
+  googleHead: String,
+  googleBody: String,
+  holidayPrefix: String,
+  callRefNo: String,
+  logo: String,
+  favicon: String,
+  facebook: String,
+  linkedin: String,
+  instagram: String,
+  twitter: String,
+  youtube: String,
+  mailer: String,
+  smtpServer: String,
+  portNumber: String,
+  fromEmail: String,
+  ccEmail: String,
+  bccEmail: String,
+  emailId: String,
+  emailPassword: String
+}, { timestamps: true });
+
+module.exports = mongoose.model("CompanySetting", companySettingSchema);
